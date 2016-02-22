@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "Private Student Space"
+AuthUserFile /home/s/sv/svs5361/public_html/project1/.htpasswd
+
+<Limit READ GET POST>
+require valid-user
+</Limit>
